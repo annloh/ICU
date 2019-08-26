@@ -1,0 +1,5 @@
+/output/
+*.sav
+*.csv
+.Rhistory
+.RData
