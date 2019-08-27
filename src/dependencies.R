@@ -26,15 +26,12 @@ ICU2 <-read.csv("impfullfinal.csv",
                  header = T,
                  sep = ",",
                  dec = ".")
-summary(ICU2)
 
 #For details on how variables were computed see datacompilation.R
 
 
 #computing a sumscore
 ICUtotal <-  ICU2$Callous4 + ICU2$Careless4 + ICU2$Careless4 + ICU2$Unemotional4
-
-summary(ICUtotal)
 
 #defining a subset of relevant variables
 myvars <-c("alter" ,
@@ -68,7 +65,7 @@ myvars <-c("alter" ,
 items <- myvars[3:26]
 #subsetting the data
 newdata <- ICU2[myvars]
-summary(newdata)
+
 
 
 
