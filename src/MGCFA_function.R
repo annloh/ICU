@@ -1,6 +1,7 @@
 # MGCFA Measurement Invariance testing
 
-
+source('dependencies.R')
+source('models.R')
 
 #-------------------------------------------------------------------------------
 # MGCFA group = gender
