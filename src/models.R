@@ -1,4 +1,4 @@
-source('data.R')
+source('dependencies.R')
 
 ################################################################################
 ## CFA - CONFIRMATORY FACTOR ANALYSES
