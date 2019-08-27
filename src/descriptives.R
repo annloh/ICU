@@ -1,14 +1,13 @@
 #Descriptives
 
-source('data.R')
+source('dependencies.R')
 
-names(ICU_full)
 
 # gender descriptives
 table(ICU_full$geschl)
 
 # migration background descriptives
-migration_table<- table(ICU_full$ethnieend2)
+migration_table <- table(ICU_full$ethnieend2)
 prop.table(migration_table)
 
 #age descritives
@@ -88,4 +87,4 @@ write.csv2(Finaldescriptives, file = "Finaldescriptives.csv")
 # combine descriptives and effectsizes
 ICU_descriptives <- cbind(DES[(4:37),], Finaldescriptives)
 rownames(ICU_descriptives) <- names(ICU_data)[(4:37)]
-View(ICU_descriptives)
+
