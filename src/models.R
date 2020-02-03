@@ -316,12 +316,14 @@ Mod_4F_bif <- "Callous =~  trait02 + trait05 + trait09 + trait13 + trait16 + tra
               trait03 + trait07 + trait11 +  trait15 + trait20 + trait23 +
               trait04 +  trait08 + trait12 + trait17 + trait21 + trait24 +
               trait01 + trait06 +   trait10 +  trait14 + trait19  + trait22
+
               Uncaring ~~ 0*Callous
               Uncaring ~~ 0*Unemotional
               Uncaring ~~ 0*Careless
               Unemotional ~~ 0*Callous
               Unemotional ~~ 0*Careless
               Callous ~~ 0*Careless
+
               Bi ~~ 0*Callous
               Bi ~~ 0*Uncaring
               Bi ~~ 0*Unemotional
